@@ -1,7 +1,7 @@
 {
   "name": "noflo-crypto",
   "description": "Wrapper around googlecode's crypto-js",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "author": {
     "name": "Kenneth Kan",
     "email": "kenhkan@gmail.com"
