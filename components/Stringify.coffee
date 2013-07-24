@@ -3,6 +3,8 @@ crypto = require "crypto-js"
 
 class Stringify extends noflo.Component
   constructor: ->
+    @encoding = "Utf8"
+
     @inPorts =
       in: new noflo.Port
       # 'Hex', 'Latin1', or 'Utf8'
