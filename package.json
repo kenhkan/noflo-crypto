@@ -1,19 +1,19 @@
 {
   "name": "noflo-crypto",
   "description": "Wrapper around googlecode's crypto-js",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": {
     "name": "Kenneth Kan",
     "email": "kenhkan@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kenhkan/noflo-crypto.git"
+    "url": "https://github.com/kenhkan/noflo-crypto.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "undefined/blob/master/LICENSE-MIT"
+      "url": "https://github.com/kenhkan/noflo-crypto/blob/master/LICENSE-MIT"
     }
   ],
   "dependencies": {
@@ -37,8 +37,12 @@
   },
   "noflo": {
     "components": {
-      "Encoder": "./components/Encoder.coffee"
+      "Parse": "./components/Parse.coffee",
+      "Stringify": "./components/Stringify.coffee"
     }
   },
-  "keywords": []
+  "keywords": [],
+  "scripts": {
+    "test": "grunt test"
+  }
 }

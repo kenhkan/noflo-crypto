@@ -3,14 +3,15 @@
   "description": "Wrapper around googlecode's crypto-js",
   "author": "Kenneth Kan <kenhkan@gmail.com>",
   "repo": "kenhkan/noflo-crypto",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "keywords": [
   ],
   "dependencies": {
-    "bergie/noflo": "*"
+    "noflo/noflo": "*"
   },
   "scripts": [
-    "components/Encoder.coffee",
+    "components/Parse.coffee",
+    "components/Stringify.coffee",
     "index.js"
   ],
   "json": [
@@ -18,7 +19,8 @@
   ],
   "noflo": {
     "components": {
-      "Encoder": "components/Encoder.coffee"
+      "Parse": "./components/Parse.coffee",
+      "Stringify": "./components/Stringify.coffee"
     }
   }
 }
