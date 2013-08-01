@@ -3,7 +3,7 @@ unless noflo.isBrowser()
   chai = require 'chai' unless chai
   Parse = require '../components/Parse.coffee'
 else
-  Parse = require 'noflo-adapters/components/Parse.js'
+  Parse = require 'noflo-crypto/components/Parse.js'
 
 describe 'Parse component', ->
   c = null
